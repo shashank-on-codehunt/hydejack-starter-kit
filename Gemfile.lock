@@ -51,6 +51,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-avatar (0.7.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-compose (0.12.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-feed (0.15.0)
@@ -118,6 +120,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.1)
+  jekyll-avatar
   jekyll-compose
   jekyll-default-layout!
   jekyll-feed

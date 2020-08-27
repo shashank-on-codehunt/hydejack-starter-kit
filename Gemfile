@@ -43,6 +43,6 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"
 end
-
+gem "jekyll-avatar"
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?

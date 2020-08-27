@@ -36,12 +36,12 @@ description:           >
 tagline:               Let's Automate
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Intellij,Productivity,Tips,Tricks,Tips and Tricks,Backend Developer,Developer,Blog]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                 /assets/img/logo2.jpg
+logo:                 /assets/img/logo2.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -50,17 +50,14 @@ author:
   email:               shashank4387@gmail.com
   # # Used by `jekyll-seo-tag`:
   twitter:             Shashan44361825
+  picture:  /assets/img/logo2.png
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
-  - title:             Projects
-    url:               /projects/
-  - title:             About
-    url:               /about/
-  - title:             Resume
-    url:               /resume/
+  - title:             devlog
+    url:               /devlog/
+#   - title:             Resume
+#     url:               /resume/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -73,7 +70,7 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020. All rights reserved.
+copyright:             ©SCubeAngle 2020. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -332,6 +329,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-avatar
 
 
 # SEO Tag
