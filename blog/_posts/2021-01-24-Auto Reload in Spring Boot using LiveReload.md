@@ -2,7 +2,7 @@
 layout: post
 title: Auto Reload is Spring Boot using Dev Tools and Live-Reload
 description: >
-    Live Reload feature is used to reflect the changes on browser automatically on code change , this is a Huge Time Saver for any developer. In Spring boot to do that we use Spring dev tools. 
+    Live Reload feature is used to reflect the changes on browser automatically on code change , this is a Huge Time Saver for any developer. In Spring boot to do that we use Spring dev tools. Internally its a web socket communication from web server to browser , for node js or javascript grant or gulp are present in order to perform live reload. 
 categories: [devlog]
 tags:       [Intellij,Spring,devlog,Productivity,Thymeleaf]
 sitemap: false
@@ -11,12 +11,7 @@ image: /assets/DevToolsSpring/DevToolsCover.jpg
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-# Introduction
-
-Live Reload feature is used to reflect the changes on browser automatically on code change , this is a Huge Time Saver for any developer. In Spring boot to do that we use Spring dev tools. 
-Internally its a web socket communication from web server to browser , for node js or javascript grant or gulp are present in order to perform live reload. 
-
-# Steps
+# Steps To Setup
 
 ### Dev Tools
 
