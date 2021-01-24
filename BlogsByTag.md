@@ -2,14 +2,14 @@
 layout: about
 image: /assets/img/blog/hydejack-9.jpg
 description: >
-  Ordered list of Blogs Based on tags 
+  list of Blogs Based on tags 
 hide_description: true
 ---
-Ordered list of Blogs Based on tags 
+## List of Blogs Based on Tags 
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>&nbsp;&nbsp;||&nbsp;&nbsp;
     {% endfor %}
   </div>
   <hr />
