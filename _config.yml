@@ -135,7 +135,6 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      comments: posts
       accent_color:    rgb(38,139,210)
       accent_image:
         background:    rgb(32,32,32)
@@ -188,11 +187,11 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:      G-HJX7F7PX3D
+# google_analytics:      UA-XXXXXXXX-X
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                scubeangle-in.disqus.com
+# disqus:                <username>
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
