@@ -4,7 +4,7 @@ title: All About Launching mysql(or Similar Image) on docker
 description: >
   One of the basic requirement to start project these days is to spool a docker and start working especially for databases.The is point to point guide on how to do the same.
 categories: [devlog]
-tags:       [MySql, docker ,devlog]
+tags:       [MySql, docker]
 sitemap: false
 image: /assets/dockerMySql/label.jpg
 ---
