@@ -7,6 +7,7 @@ categories: [devlog]
 tags:       [MySql, docker]
 sitemap: false
 image: /assets/dockerMySql/label.jpg
+comments: true
 ---
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}

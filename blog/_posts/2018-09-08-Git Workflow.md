@@ -7,6 +7,7 @@ categories: [devlog]
 tags:       [Git, Project Management]
 sitemap: false
 image: /assets/GitWorkflow/label.jpg
+comments: true
 ---
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
